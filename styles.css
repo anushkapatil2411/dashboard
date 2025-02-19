@@ -253,6 +253,29 @@ aside .sidebar a span.msg_count {
   max-width: 400px;
 }
 
+.demo-test-button button {
+  background-color: #28a745; /* Green color */
+  color: white; /* White text */
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.demo-test-button button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.demo-test-button button:active {
+  transform: scale(0.95); /* Click effect */
+}
+
+
 .illustration img {
   max-width: 100%;
   height: auto;
@@ -994,4 +1017,27 @@ main {
     width: 100%; 
     box-sizing: border-box; 
  }
+}
+.demo-test-button {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px; 
+}
+
+.demo-test-button button {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.demo-test-button button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
 }
