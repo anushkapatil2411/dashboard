@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>63Moons</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dashboard Layout -->
+  <div class="dashboard">
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+      <!-- Menu toggle (Only on mobile) -->
+      <button id="menu_bar">
+        <span class="material-symbols-sharp">menu</span>
+      </button>
+
+      <!-- Logo -->
+      <div class="logo">
+        <img src="assets/logo.png" alt="63Moons Logo" />
+      </div>
+      
+
+      <!-- Theme toggler -->
+      <div class="theme-toggler">
+        <span class="material-symbols-sharp active">light_mode</span>
+        <span class="material-symbols-sharp">dark_mode</span>
+      </div>
+
+      <!-- Profile Section -->
+      <div class="profile">
+        <div class="info">
+          <p><b>Anyaa Patil</b></p>
+        </div>
+        <div class="profile-photo">
+          <img src="assets/anyaa.jpg" alt="Profile Photo"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Sidebar Section -->
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <h2>63<span class="blue">Moons</span></h2>
+          </div>
+          <!-- Close Button -->
+          <button class="close-btn" id="close_btn">
+            <span class="material-symbols-sharp">close</span>
+          </button>
+        </div>
+
+        <!-- Sidebar Links -->
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-symbols-sharp">grid_view</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">person_outline</span>
+            <h3>Profile</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">insights</span>
+            <h3>Statistics</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">mail_outline</span>
+            <h3>Tests</h3>
+            <!--<span class="msg_count"></span>-->
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">receipt_long</span>
+            <h3>Test History</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">report_gmailerrorred</span>
+            <h3>Results</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+
+      <!-- Main Content Section -->
+      <main>
+        <br/><br/><br/>
+        <div class="home">
+          <h2>Welcome Back, Anyaa</h2>
+          <p>Let's dive in and get things done!</p>
+
+<!-- Learning Container -->
+<div class="learning-container">
+  <div class="text-content">
+    <h3>Elevate Your Expertise Through Our Online Exam Platform</h3>
+    <p>Empower yourself with our comprehensive online exams designed to hone and refine your skills for success.</p>
+  </div>
+
+  <!-- Demo Test Button below the paragraph -->
+  <div class="demo-test-button">
+    <button id="start-demo-test">Let's Start Demo Test</button>
+  </div>
+
+  <div class="illustration">
+    <img src="assets/illustration.png" alt="Illustration">
+  </div>
+</div>
+
+
+          <!-- Subject Section -->
+          <div class="sub">
+            <h2>Subjects</h2>
+            <br>
+            <div class="subject">
+              <i class="fas fa-book-open"></i>
+              <h2>Maths</h2>
+              <p>18 Chapters</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
